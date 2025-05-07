@@ -6,4 +6,5 @@
     <color name="hamburger_text_color_day">#FF000000
     </color>
     <color name="hamburger_text_color_night">#00FF00</color> <!-- Gündüz modunda hamburger metni için kullanılacak renk (siyah) -->
+    <color name="teal_200">#03DAC5</color>
 </resources>
