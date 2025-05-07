@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="hamburger_text_color_day" format="color" />
+    <attr name="hamburgerTextColor" format="color" />
+</resources>

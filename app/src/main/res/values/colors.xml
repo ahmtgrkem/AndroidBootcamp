@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFCC80</color>
-    <color name="colorPrimaryVariant">#FFA040</color>
-    <color name="colorSecondary">#90CAF9</color>
-    <color name="colorSecondaryVariant">#64B5F6</color>
-    <color name="colorBackground">#FAFAFA</color>
-    <color name="colorSurface">#FFFFFF</color>
-    <color name="colorError">#B00020</color>
-    <color name="colorOnPrimary">#FFFFFF</color>
-    <color name="colorOnSecondary">#000000</color>
-    <color name="colorOnBackground">#424242</color>
-    <color name="colorOnSurface">#424242</color>
-    <color name="colorOnError">#FFFFFF</color>
-    <!--  Diğer renkler için örnek tanımlamalar -->
+    <!-- Gündüz Modu Renkleri -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="hamburger_text_color_day">#FF000000
+    </color>
+    <color name="hamburger_text_color_night">#00FF00</color> <!-- Gündüz modunda hamburger metni için kullanılacak renk (siyah) -->
 </resources>
