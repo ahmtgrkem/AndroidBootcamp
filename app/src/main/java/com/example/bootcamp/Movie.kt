@@ -1,11 +1,7 @@
-package com.example.bootcamp // Kendi paket adınızla değiştirin
+package com.example.bootcamp // KENDİ PAKET ADINIZ
 
 data class Movie(
     val id: Int,
     val title: String,
-    val posterUrl: String,
-    val bannerUrl: String? = null,
-    val description: String? = null,
-    val posterResId: Int
+    val posterResId: Int // Bu parametrenin tipi Int olmalı
 )
-
