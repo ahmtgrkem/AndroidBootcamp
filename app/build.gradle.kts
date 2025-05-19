@@ -47,6 +47,12 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    // Veya güncel sürüm
+// annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1") // Eğer kullanıyorsanız
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

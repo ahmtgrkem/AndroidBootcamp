@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Gündüz Modu Renkleri -->
+    <!-- Mevcut diğer renkleriniz -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="hamburger_text_color_day">#FF000000
-    </color>
-    <color name="hamburger_text_color_night">#00FF00</color> <!-- Gündüz modunda hamburger metni için kullanılacak renk (siyah) -->
-    <color name="teal_200">#03DAC5</color>
+
+    <color name="disney_background_dark">#FF0A1021</color>
+    <color name="disney_surface_dark">#FF10161D</color>
+    <color name="disney_primary">#FF6200EE</color>
+    <color name="disney_primary_variant">#FF3700B3</color>
+    <color name="disney_on_primary">@color/white</color>
+
+    <color name="disney_text_primary_light">#DEFFFFFF</color> <!-- %87 alpha beyaz -->
+    <color name="disney_text_secondary_light">#99FFFFFF</color> <!-- %60 alpha beyaz -->
+    <color name="disney_icon_tint_selected_light">@color/white</color>
+    <color name="disney_icon_tint_unselected_light">#8AFFFFFF</color> <!-- %54 alpha beyaz -->
+
+    <!-- EKSİK OLAN RENK TANIMINI BURAYA EKLEYİN -->
+    <color name="hamburger_text_color_night">#DEFFFFFF</color> <!-- Örnek: %87 alpha beyaz, gece modu için uygun olabilir -->
+
 </resources>

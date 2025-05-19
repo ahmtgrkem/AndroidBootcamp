@@ -1,5 +1,26 @@
-<resources>
-    <style name="Theme.BootCamp" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="hamburger_text_color_day">@color/hamburger_text_color_day</item>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DisneyPlusClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/disney_primary</item>
+        <item name="colorPrimaryVariant">@color/disney_primary_variant</item>
+        <item name="colorOnPrimary">@color/disney_on_primary</item>
+        <!-- Secondary brand color. (Genellikle kullanılmaz ama tanımlı olabilir) -->
+        <item name="colorSecondary">@color/disney_primary</item>
+        <item name="colorSecondaryVariant">@color/disney_primary_variant</item>
+        <item name="colorOnSecondary">@color/disney_on_primary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/disney_background_dark</item>
+        <!-- Window background -->
+        <item name="android:windowBackground">@color/disney_background_dark</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/disney_text_primary_light</item>
+        <item name="android:textColorSecondary">@color/disney_text_secondary_light</item>
+
+        <!-- CardView background -->
+        <item name="cardBackgroundColor">@color/disney_surface_dark</item>
     </style>
+
+    <style name="Theme.DisneyPlusClone" parent="Base.Theme.DisneyPlusClone" />
 </resources>
